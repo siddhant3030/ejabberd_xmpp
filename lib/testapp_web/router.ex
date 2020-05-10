@@ -17,7 +17,7 @@ defmodule TestappWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-    # get "/ejabberd", EjabberdController, :index
+    get "/ejabberd", EjabberdController, :index
   end
 
   # Other scopes may use custom stacks.
