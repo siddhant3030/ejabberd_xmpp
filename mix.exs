@@ -45,9 +45,9 @@ defmodule Testapp.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-       {:ejabberd, "~> 20.4"},
-       {:xmpp, "~> 1.4"},
-       {:corsica, "~> 0.4"},
+      {:ejabberd, "~> 20.4"},
+      {:xmpp, "~> 1.4"},
+      {:corsica, "~> 0.4"}
     ]
   end
 
